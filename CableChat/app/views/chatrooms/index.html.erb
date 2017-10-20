@@ -1,0 +1,13 @@
+
+
+<h1>Chatrooms</h1>
+
+<p class="lead">
+  <%= link_to 'new chat room', new_chatroom_path, class: "btn btn-primary" %>
+</p>
+
+<h1>here are your previous chats with Duckly</h1>
+
+<ul>
+  <%= render @chatrooms %>
+</ul>
